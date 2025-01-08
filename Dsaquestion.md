@@ -146,3 +146,23 @@ class Solution:
                     max_len=max(max_len,i-stack[-1])
         return max_len
 ```
+
+15. 3Sum
+
+```
+
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        arr=[]
+        for i in range(0,len(nums)-2):
+            for j in range(i+1,len(nums)-1):
+                for k in range(j+1,len(nums)):
+                    if nums[i]+nums[j]+nums[k]==0:
+                        arr.append([nums[i],nums[j],nums[k]])
+                    j=j+1
+                i=i+1
+        return arr
+
+        
+                        
+```
