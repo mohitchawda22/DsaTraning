@@ -7,7 +7,10 @@ class Solution:
             for j in range(i+1,len(nums)):
                 if(nums[i]+nums[j]==target):
                     return(i,j)
+              
 ```
+##Time complexity of this code is -n^2
+
 
 **1304. Find N Unique Integers Sum up to Zero**
 
@@ -29,6 +32,9 @@ class Solution:
         
 ```
 
+##Time complexity is n
+
+
 **53. Maximum Subarray**
 
 ```
@@ -44,6 +50,8 @@ class Solution:
         return maxSum
 
 ```
+##Time complexity is n
+
 
 ### **Second Largest**
 
@@ -59,6 +67,7 @@ def getSecondLargest(self, arr):
 #         return temp
 
 ```
+
     if len(arr)<=1:
         return -1
     l=-1
@@ -72,6 +81,8 @@ def getSecondLargest(self, arr):
     return l2
 
 ```
+
+## Time complexity is n
 
 **876. Middle of the Linked List**
 
@@ -90,6 +101,8 @@ class Solution:
         return slow
 ```
 
+## Time complexity is n
+
 Search in Rotated Sorted Array
 ```
 class Solution:
@@ -101,6 +114,8 @@ class Solution:
         return -1
 ```
 
+## Time complexity is n
+
 35. Search Insert Position
 
 ```
@@ -111,6 +126,8 @@ class Solution:
                 return i
         return len(nums)
 ```
+
+## Time complexity is n
 
 88. Merge Sorted Array
 
@@ -125,6 +142,8 @@ class Solution:
         nums1.sort()
 
 ```
+
+# Time complexity is 2n 
 
 32. Longest Valid Parentheses
 
@@ -147,6 +166,8 @@ class Solution:
         return max_len
 ```
 
+## Time complexity is n
+
 15. 3Sum
 
 ```
@@ -162,7 +183,7 @@ class Solution:
                     j=j+1
                 i=i+1
         return arr
-
-        
                         
 ```
+
+## Time complexity is n^3
