@@ -10,6 +10,7 @@ class Solution:
               
 ```
 ##Time complexity of this code is -n^2
+##space complexity of this code is o(1)
 
 
 **1304. Find N Unique Integers Sum up to Zero**
@@ -31,8 +32,8 @@ class Solution:
         return arr
         
 ```
-
 ##Time complexity is n
+##space complexity is o(n)
 
 
 **53. Maximum Subarray**
@@ -51,6 +52,7 @@ class Solution:
 
 ```
 ##Time complexity is n
+##space complexity is o(1)
 
 
 ### **Second Largest**
@@ -75,6 +77,7 @@ def getSecondLargest(self, arr):
 ```
 
 ## Time complexity is n
+## Space complexity is o(1)
 
 **876. Middle of the Linked List**
 
@@ -94,6 +97,7 @@ class Solution:
 ```
 
 ## Time complexity is n
+## Space complexity is o(1)
 
 Search in Rotated Sorted Array
 ```
@@ -107,6 +111,7 @@ class Solution:
 ```
 
 ## Time complexity is n
+## Space complexity is o(1)
 
 35. Search Insert Position
 
@@ -120,6 +125,8 @@ class Solution:
 ```
 
 ## Time complexity is n
+## Space complexity is o(1)
+
 
 88. Merge Sorted Array
 
@@ -136,6 +143,7 @@ class Solution:
 ```
 
 # Time complexity is 2n 
+# Space complexity is o(n)
 
 32. Longest Valid Parentheses
 
@@ -159,6 +167,7 @@ class Solution:
 ```
 
 ## Time complexity is n
+## Space complexity is o(n)
 
 15. 3Sum
 
@@ -179,3 +188,4 @@ class Solution:
 ```
 
 ## Time complexity is n^3
+## Space complexity is o(n)
