@@ -55,18 +55,10 @@ class Solution:
 
 ### **Second Largest**
 
+```
 class Solution:
 def getSecondLargest(self, arr):
 # Code Here
-# temp=[]
-# for i in range(len(arr)-1):
-#     temp.append(arr[i])
-#     if arr[i+1]>temp[i]:
-#         temp.pop(i)
-#         temp.append(arr[i+1])
-#         return temp
-
-```
 
     if len(arr)<=1:
         return -1
